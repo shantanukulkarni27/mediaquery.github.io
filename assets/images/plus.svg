@@ -1,0 +1,12 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+	<title>Work</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #ffffff } 
+	</style>
+	<g id="Work">
+		<g id="Load More">
+			<path id="Forma 1" class="shp0" d="M15.5 6L10 6L10 0.5C10 0.22 9.78 0 9.5 0L6.5 0C6.22 0 6 0.22 6 0.5L6 6L0.5 6C0.22 6 0 6.22 0 6.5L0 9.5C0 9.77 0.22 10 0.5 10L6 10L6 15.5C6 15.77 6.22 16 6.5 16L9.5 16C9.78 16 10 15.77 10 15.5L10 10L15.5 10C15.78 10 16 9.77 16 9.5L16 6.5C16 6.22 15.78 6 15.5 6Z" />
+		</g>
+	</g>
+</svg>

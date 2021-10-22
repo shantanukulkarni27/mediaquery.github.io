@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    max-width: 1200;
+    font-family:'Roboto', sans-serif;
+    position: relative;
+    
+}
+header{
+    background-image: url("../images/slider1.jpg");
+    background-size: cover;
+    height: 100vh;
+    width:100%;
+}
+
+
+.top-head{
+ 
+   background-color: rgb(68,67,62,0.7);
+   width:100%;
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: 1;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1100px;
+   
+}
+
+
+.inner-head{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.left-head{
+    /* width: 100%; */
+}
+
+.right-head{
+    display: flex;
+    /* width: 100%; */
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+}
+
+.list li{
+   padding:0 10px;
+   align-items: center;
+   font-weight: bold;
+   font-size: 15px;
+}
+
+.list li a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+
+
+  .list li  a:hover {
+    color: #41CFAB ;
+     border-bottom: 3px solid #41CFAB;
+    padding-bottom: 33px;
+    
+  }
+
+.search-bar{
+     padding-left: 10px;
+}
+
+.banner{
+    
+    /* overflow: hidden; */
+    width: 100%;
+    
+}
+
+.banner img{
+    width: 100%;
+ 
+}
+/* 
+.banner .container{
+    position: relative;
+} */
+
+ .ban-content{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 220px;
+
+}
+
+.ban-content h1,h2,h3{
+    color:#FFFFFF;
+    text-transform: uppercase;
+    /* padding-bottom: 10px; */
+    margin: 0 0 34px;
+}
+
+.ban-content h2{
+    font-size: 70px;
+    word-spacing: 10px;
+}
+.ban-content h3{
+    font-size: 30px;
+    text-transform: capitalize;
+    color: rgb(212,212,212);
+}
+
+.ban-content h1 span{
+    color: #41CFAB;
+}
+
+.ban-buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.ban-buttons button{
+    font-size: 15px;
+    color: #FFFFFF;
+    min-width: 170px;
+    border-top: 5px solid white;
+    padding: 20px;
+    margin-left: 20px;
+}
+.ban-buttons .btn1{
+    background-color: rgb(65,207,171);
+}
+
+.ban-buttons .btn2{
+   background-color:rgb(0,203,246);
+}
+
+.ban-buttons .btn1:hover,.ban-buttons .btn2:hover{
+    font-size: 25px;
+    border-top: 5px solid wheat;
+}
+
+/* section Two */
+
+.four{
+    display: flex;
+      
+    
+     
+  }
+  .four1,.four3{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 350px;
+    background-color: #1C2A33;
+    border-top: 5px solid #41CFAB;
+    align-items: center;
+    justify-content: center;
+  }
+  .four2,.four4{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 350px;
+    background-color: #41CFAB;
+    border-top: 5px solid white;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .four1 p,.four3 p{
+      padding-top: 25px;
+      color: #41CFAB;
+      font-weight:800;
+      font-size: 20px;
+      text-transform: uppercase;
+  }
+  .four2 p,.four4 p{
+    padding-top: 25px;
+    color: #FFFFFF;
+    font-weight:800;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+
+
+
+/*---------Section Three-------------- */
+
+
+
+.sectionThree{
+    max-width: 1200px;
+}
+.heading{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    
+}
+.heading h1{
+    width: 50%;
+    margin-left: 450px;
+  
+}
+.heading img{
+    margin-left: 600px;
+}
+
+
+.main{
+    margin-left: 252px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.firstOne{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 75px;
+}
+.headicon img{
+    float: left;
+    margin-top: 4px;
+    
+}
+.headicon h3{
+    float: left;
+    margin-left: 15px;
+    margin-top: 7px;
+    color: #717171;
+}
+
+.para{
+    margin-top:-10px;
+}
+
+
+
+
+/*--------------------- Media Queries----------------------------------------  */
+
+
+
+
+
+
+
+
